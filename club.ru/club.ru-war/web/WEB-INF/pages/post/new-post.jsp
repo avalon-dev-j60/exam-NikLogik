@@ -8,7 +8,6 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="core" tagdir="/WEB-INF/tags/core/" %>
-<%@taglib prefix="auth" tagdir="/WEB-INF/tags/auth/" %>
 <%@taglib prefix="items" tagdir="/WEB-INF/tags/items/" %>
 <fmt:setBundle basename="resources.labels"/>
 

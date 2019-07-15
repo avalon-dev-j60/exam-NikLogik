@@ -11,7 +11,7 @@
 <fieldset>
     <form name="update-post" method="post" action="${pageContext.servletContext.contextPath}/post-edit">
         <div>
-            <legend><h2>Update</h2></legend>
+            <legend><h2><fmt:message key="label.post.update_post"/></h2></legend>
             <div class="row">
                 <label><fmt:message key="label.post.title"/></label>
                 <input name="title" type="text" value="${update_post.title}">
